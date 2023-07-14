@@ -1,0 +1,113 @@
+* {
+    padding: 4px;
+    box-sizing: border-box;
+    
+
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: url(../imgs/CSS.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    grid-auto-flow: column;
+    text-align: center;
+    
+}
+
+.item{
+    background-color: rgba(225, 234, 235, 0.822);
+    padding: auto;
+    font-size: large;
+    margin-bottom: 60px;
+
+}
+
+h1 {
+    color: rgb(92, 22, 22);
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 3%;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+h2{
+    color: rgb(4, 3, 61);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h3{
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 3%;
+    
+    display: flex;
+    height: 90%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h4{
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+    
+    height: 90%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+img{
+        width: 30%;  
+        margin-bottom: 60px; 
+}
+
+.header {
+    width: 50%;
+    height: 100px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    margin: 0;
+    padding: 4;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;   
+}
+
+nav{
+    margin-bottom: 40px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: blanchedalmond;
+
+}
